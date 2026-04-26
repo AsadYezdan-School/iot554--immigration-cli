@@ -1,0 +1,10 @@
+{"timestamp":"2026-04-26T16:01:40.462737836Z","eventType":"SHARE_CODE_GENERATED","organisationId":"SYSTEM","maskedPersonId":"P001****","shareCode":"X9MUXN9RV","outcome":"GENERATED","detail":"EDUCATION"}
+{"timestamp":"2026-04-26T16:02:47.125406491Z","eventType":"SHARE_CODE_VERIFICATION","organisationId":"ORGABC","shareCode":"X9MUXN9RV","outcome":"REJECTED","detail":"Organisation not recognised"}
+{"timestamp":"2026-04-26T17:25:25.396502294Z","eventType":"SHARE_CODE_GENERATED","organisationId":"SYSTEM","maskedPersonId":"P001****","shareCode":"KL6U8CE94","outcome":"GENERATED","detail":"ACCOMMODATION"}
+{"timestamp":"2026-04-26T17:26:20.410176112Z","eventType":"CONFIRMATION_REFUSED","organisationId":"ORG001","outcome":"REJECTED","detail":"Confirmation refused by organisation"}
+{"timestamp":"2026-04-26T17:27:06.368303552Z","eventType":"SHARE_CODE_VERIFICATION","organisationId":"ORG001","maskedPersonId":"P001****","shareCode":"KL6U8CE94","outcome":"REJECTED","detail":"Purpose \u0027ACCOMMODATION\u0027 is not permitted for role \u0027EMPLOYER\u0027"}
+{"timestamp":"2026-04-26T17:28:41.658385902Z","eventType":"DOCUMENT_VERIFICATION","organisationId":"ORG001","shareCode":"AB1234567","outcome":"REJECTED","detail":"Organisation role \u0027EMPLOYER\u0027 is not authorised for the document route"}
+{"timestamp":"2026-05-02T15:13:49.324764922Z","eventType":"CONFIRMATION_REFUSED","organisationId":"ORG001","outcome":"REJECTED","detail":"Confirmation refused by organisation"}
+{"timestamp":"2026-05-02T15:13:49.358323776Z","eventType":"SHARE_CODE_VERIFICATION","organisationId":"ORG001","shareCode":"AAAAAAAA1","outcome":"REJECTED","detail":"Share code not found"}
+{"timestamp":"2026-05-02T15:13:49.423139558Z","eventType":"DOCUMENT_VERIFICATION","organisationId":"ORG005","maskedPersonId":"P001****","shareCode":"AB1234567","outcome":"APPROVED","detail":"Entry permitted: true, conditions: []"}
+{"timestamp":"2026-05-02T15:13:49.450469499Z","eventType":"SHARE_CODE_GENERATED","organisationId":"SYSTEM","maskedPersonId":"P001****","shareCode":"3JZE924SG","outcome":"GENERATED","detail":"EMPLOYMENT"}

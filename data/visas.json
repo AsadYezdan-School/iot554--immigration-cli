@@ -1,0 +1,52 @@
+[
+  {
+    "id": "V001",
+    "personId": "P001",
+    "visaType": "WORK",
+    "expiryDate": "2027-06-30",
+    "rightToWork": true,
+    "rightToRent": false,
+    "entryPermitted": true,
+    "conditions": []
+  },
+  {
+    "id": "V002",
+    "personId": "P002",
+    "visaType": "STUDENT",
+    "expiryDate": "2027-09-30",
+    "rightToWork": false,
+    "rightToRent": false,
+    "entryPermitted": true,
+    "conditions": ["No employment above 20 hours per week during term time"]
+  },
+  {
+    "id": "V003",
+    "personId": "P003",
+    "visaType": "WORK",
+    "expiryDate": "2023-01-15",
+    "rightToWork": false,
+    "rightToRent": false,
+    "entryPermitted": false,
+    "conditions": ["Visa expired — no remaining permissions"]
+  },
+  {
+    "id": "V004",
+    "personId": "P004",
+    "visaType": "SETTLEMENT",
+    "expiryDate": "2035-12-31",
+    "rightToWork": true,
+    "rightToRent": true,
+    "entryPermitted": true,
+    "conditions": []
+  },
+  {
+    "id": "V005",
+    "personId": "P005",
+    "visaType": "VISITOR",
+    "expiryDate": "2026-10-25",
+    "rightToWork": false,
+    "rightToRent": false,
+    "entryPermitted": true,
+    "conditions": ["No employment", "No recourse to public funds"]
+  }
+]

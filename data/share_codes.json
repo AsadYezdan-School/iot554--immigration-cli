@@ -1,0 +1,74 @@
+[
+  {
+    "code": "ABC123XY1",
+    "personId": "P001",
+    "purpose": "EMPLOYMENT",
+    "issuedAt": "2026-01-01T00:00:00Z",
+    "expiresAt": "2027-01-01T00:00:00Z",
+    "used": false
+  },
+  {
+    "code": "DEF456YZ2",
+    "personId": "P004",
+    "purpose": "ACCOMMODATION",
+    "issuedAt": "2026-01-01T00:00:00Z",
+    "expiresAt": "2027-01-01T00:00:00Z",
+    "used": false
+  },
+  {
+    "code": "GHJ789ZA3",
+    "personId": "P002",
+    "purpose": "EDUCATION",
+    "issuedAt": "2026-01-01T00:00:00Z",
+    "expiresAt": "2027-01-01T00:00:00Z",
+    "used": false
+  },
+  {
+    "code": "KLM012BC4",
+    "personId": "P001",
+    "purpose": "EMPLOYMENT",
+    "issuedAt": "2024-01-01T00:00:00Z",
+    "expiresAt": "2024-06-01T00:00:00Z",
+    "used": false
+  },
+  {
+    "code": "NOP345DE5",
+    "personId": "P004",
+    "purpose": "ACCOMMODATION",
+    "issuedAt": "2026-01-01T00:00:00Z",
+    "expiresAt": "2027-01-01T00:00:00Z",
+    "used": true
+  },
+  {
+    "code": "QRS678FG6",
+    "personId": "P005",
+    "purpose": "EMPLOYMENT",
+    "issuedAt": "2026-01-01T00:00:00Z",
+    "expiresAt": "2027-01-01T00:00:00Z",
+    "used": false
+  },
+  {
+    "code": "X9MUXN9RV",
+    "personId": "P001",
+    "purpose": "EDUCATION",
+    "issuedAt": "2026-04-26T16:01:40.462737836Z",
+    "expiresAt": "2026-05-26T16:01:40.462737836Z",
+    "used": false
+  },
+  {
+    "code": "KL6U8CE94",
+    "personId": "P001",
+    "purpose": "ACCOMMODATION",
+    "issuedAt": "2026-04-26T17:25:25.396502294Z",
+    "expiresAt": "2026-05-26T17:25:25.396502294Z",
+    "used": false
+  },
+  {
+    "code": "3JZE924SG",
+    "personId": "P001",
+    "purpose": "EMPLOYMENT",
+    "issuedAt": "2026-05-02T15:13:49.450469499Z",
+    "expiresAt": "2026-06-01T15:13:49.450469499Z",
+    "used": false
+  }
+]

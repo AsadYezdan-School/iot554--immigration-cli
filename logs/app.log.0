@@ -1,0 +1,21 @@
+[2026-04-26 17:00:54] [INFO   ] [Main] Immigration Status Verification System starting
+[2026-04-26 17:00:54] [INFO   ] [PersonRepository] Loaded 5 persons from data/persons.json
+[2026-04-26 17:00:54] [INFO   ] [VisaRepository] Loaded 5 visas from data/visas.json
+[2026-04-26 17:00:54] [INFO   ] [ShareCodeRepository] Loaded 6 share codes from data/share_codes.json
+[2026-04-26 17:00:54] [INFO   ] [OrganisationRepository] Loaded 6 organisations from data/organisations.json
+[2026-04-26 17:01:40] [INFO   ] [ShareCodeRepository] Persisted new share code for person P001
+[2026-04-26 17:01:40] [INFO   ] [ShareCodeService] Generated share code for person=P001**** purpose=EDUCATION
+[2026-04-26 17:02:47] [INFO   ] [VerificationService] Share code verification requested by org=ORGABC
+[2026-04-26 17:02:47] [WARNING] [VerificationService] Rejected SHARE_CODE_VERIFICATION reason=Organisation not recognised org=ORGABC
+[2026-04-26 18:24:15] [INFO   ] [Main] Immigration Status Verification System starting
+[2026-04-26 18:24:15] [INFO   ] [PersonRepository] Loaded 5 persons from data/persons.json
+[2026-04-26 18:24:15] [INFO   ] [VisaRepository] Loaded 5 visas from data/visas.json
+[2026-04-26 18:24:15] [INFO   ] [ShareCodeRepository] Loaded 7 share codes from data/share_codes.json
+[2026-04-26 18:24:15] [INFO   ] [OrganisationRepository] Loaded 6 organisations from data/organisations.json
+[2026-04-26 18:25:25] [INFO   ] [ShareCodeRepository] Persisted new share code for person P001
+[2026-04-26 18:25:25] [INFO   ] [ShareCodeService] Generated share code for person=P001**** purpose=ACCOMMODATION
+[2026-04-26 18:26:20] [WARNING] [VerificationService] Confirmation refused by org=ORG001
+[2026-04-26 18:27:06] [INFO   ] [VerificationService] Share code verification requested by org=ORG001
+[2026-04-26 18:27:06] [WARNING] [VerificationService] Rejected SHARE_CODE_VERIFICATION reason=Purpose 'ACCOMMODATION' is not permitted for role 'EMPLOYER' org=ORG001
+[2026-04-26 18:28:41] [INFO   ] [VerificationService] Document verification requested by org=ORG001 docType=PASSPORT
+[2026-04-26 18:28:41] [WARNING] [VerificationService] Rejected DOCUMENT_VERIFICATION reason=Organisation role 'EMPLOYER' is not authorised for the document route org=ORG001

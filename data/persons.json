@@ -1,0 +1,42 @@
+[
+  {
+    "id": "P001",
+    "fullName": "Emma Harrison",
+    "dateOfBirth": "1985-03-22",
+    "nationality": "Australian",
+    "passportNumber": "AB1234567",
+    "permitNumber": null
+  },
+  {
+    "id": "P002",
+    "fullName": "Ravi Patel",
+    "dateOfBirth": "1998-07-14",
+    "nationality": "Indian",
+    "passportNumber": "XY9876543",
+    "permitNumber": "CD1234567"
+  },
+  {
+    "id": "P003",
+    "fullName": "Fatima Al-Rashid",
+    "dateOfBirth": "1972-11-30",
+    "nationality": "Jordanian",
+    "passportNumber": "JO3456789",
+    "permitNumber": null
+  },
+  {
+    "id": "P004",
+    "fullName": "Luca Ferretti",
+    "dateOfBirth": "1968-05-01",
+    "nationality": "Italian",
+    "passportNumber": "EF3456789",
+    "permitNumber": null
+  },
+  {
+    "id": "P005",
+    "fullName": "Mei Zhang",
+    "dateOfBirth": "2000-09-25",
+    "nationality": "Chinese",
+    "passportNumber": "GH5678901",
+    "permitNumber": null
+  }
+]
