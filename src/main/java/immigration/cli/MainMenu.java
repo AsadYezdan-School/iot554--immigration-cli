@@ -1,0 +1,43 @@
+package immigration.cli;
+
+import java.util.Scanner;
+
+public class MainMenu {
+
+    private final HttpApiClient apiClient;
+    private final Scanner scanner;
+
+    public MainMenu(HttpApiClient apiClient, Scanner scanner) {
+        this.apiClient = apiClient;
+        this.scanner = scanner;
+    }
+
+    public void run() {
+        while (true) {
+            System.out.println();
+            System.out.println("╔══════════════════════════════════════════╗");
+            System.out.println("║  Immigration Status Verification System  ║");
+            System.out.println("╠══════════════════════════════════════════╣");
+            System.out.println("║  1. Verify via Share Code                ║");
+            System.out.println("║  2. Verify via Document                  ║");
+            System.out.println("║  3. Generate Share Code (Admin)          ║");
+            System.out.println("║  4. Analytics                            ║");
+            System.out.println("║  0. Exit                                 ║");
+            System.out.println("╚══════════════════════════════════════════╝");
+            System.out.print("Choice: ");
+
+            var choice = scanner.nextLine().trim();
+            switch (choice) {
+                case "1" -> new AdminMenu(apiClient, scanner).run();
+                case "2" -> new DocumentMenu(apiClient, scanner).run();
+                case "3" -> new ShareCodeMenu(apiClient, scanner).run();
+                case "4" -> new AnalyticsMenu(apiClient, scanner).run();
+                case "0" -> {
+                    System.out.println("Goodbye.");
+                    return;
+                }
+                default -> System.out.println("Invalid choice — enter 0-4.");
+            }
+        }
+    }
+}

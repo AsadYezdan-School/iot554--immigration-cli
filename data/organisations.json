@@ -1,0 +1,38 @@
+[
+  {
+    "id": "ORG001",
+    "name": "Acme Ltd",
+    "email": "hr@acme.com",
+    "role": "EMPLOYER"
+  },
+  {
+    "id": "ORG002",
+    "name": "Beta Corp",
+    "email": "hr@betacorp.com",
+    "role": "EMPLOYER"
+  },
+  {
+    "id": "ORG003",
+    "name": "City Rentals",
+    "email": "lets@cityrentals.com",
+    "role": "LANDLORD"
+  },
+  {
+    "id": "ORG004",
+    "name": "Metro College",
+    "email": "enrolment@metrocollege.edu",
+    "role": "EDUCATION"
+  },
+  {
+    "id": "ORG005",
+    "name": "Port Authority",
+    "email": "ops@portauth.gov",
+    "role": "BORDER_CONTROL"
+  },
+  {
+    "id": "ORG006",
+    "name": "Metro Police",
+    "email": "verify@metropolice.gov",
+    "role": "LAW_ENFORCEMENT"
+  }
+]
